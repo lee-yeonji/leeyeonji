@@ -1,0 +1,35 @@
+
+.grad1 {
+  background: red; /* css를 지원하지 않는 웹 브라우저용 */
+    background: radial-gradient(red, blue, white);
+    /* 모양을 지정하지 않으면 타원형 */
+  }
+.grad2 {
+  background: red; /* css를 지원하지 않는 웹 브라우저용 */
+  background: radial-gradient(circle, red, blue, white);
+  /* 원형 */
+}
+
+
+.grad {
+	background: #06f; /* css를 지원하지 않는 웹 브라우저용 */
+  background: linear-gradient(to bottom, #06f, white 30%, #06f);
+  /* 위에서부터 30% 위치에 색상 중지점 지정*/
+}
+
+.grad {
+  background: blue; /* css를 지원하지 않는 웹 브라우저용 */
+  background: radial-gradient(circle at 20% 20%, blue, white);
+  /* 원형, 20% 20% 위치, 파란색에서 흰색 지정 */
+}
+
+.grad1 {
+  background: red; /* css를 지원하지 않는 웹 브라우저용 */
+  background: repeating-linear-gradient(blue, white 20px);
+    /* 선형 그러데이션 반복 */
+}
+.grad2 {
+  background: #ccc; /* css를 지원하지 않는 웹 브라우저용 */
+  background: repeating-radial-gradient(circle, blue, #ccc 10%);
+  /* 원형 그러데이션 반복*/
+}
