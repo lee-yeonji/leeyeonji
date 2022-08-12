@@ -19,6 +19,7 @@ dxs, dys = [0, 1, 0, -1], [1, 0, -1, 0]
 def in_range(x, y):
     return 0 <= x and x < n and 0 <= y and y < n
 
+# 각 칸 중 상하좌우로 인접한 칸 중 숫자 1이 적혀져 있는 함수
 def adj_cnt(x, y):
     cnt = 0
     for dx, dy in zip(dxs, dys):
@@ -28,7 +29,7 @@ def adj_cnt(x, y):
             cnt += 1
     return cnt
 
-# 각 칸을 탐색
+# 각 칸 중 상하좌우로 인접한 칸 중 숫자 1이 적혀 있는 칸의 수가 3개 이상인 곳의 개수 탐색
 ans = 0
 for i in range(n):
     for j in range(n):
