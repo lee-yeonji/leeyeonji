@@ -8,4 +8,5 @@ html, css, javascript 공부한 후 web homepage 만들기
 - dx, dy 테크닉을 이용해 격자에서의 이동 구현
 - simulation: 격자 안에서의 완전 탐색, 회전, 이동 구현
 - backtracking: 재귀 함수를 통해 조합, 순열 구현
-
+- dfs: 깊이 우선 탐색 / bfs: 너비 우선 탐색
+- dp : 동적 계획법
