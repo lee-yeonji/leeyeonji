@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:400,700,900");
+
+.page1-home {
+  text-align: center;
+  width: 50%;
+  margin: 20px auto;
+}
+.page1-home img {
+  width: 70%;
+  height: auto;
+}
+
+/* .hidden,
+.hidden *{
+  pointer-events: none;
+  visibility: hidden;
+} */
+
+.esg {
+  text-align: center;
+  letter-spacing: 0;
+  margin: 30px auto;
+  min-height: 153px;
+  width: 70%;
+
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5em;
+  color: #334326;
+}
+
+.button {
+  border: none;
+  padding: 32px 64px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 30px auto;
+  width: 70%;
+  transition-duration: 0.4s;
+  
+}
+.button-1 {
+  width: 250px;
+  height: 60px;
+  border: 2px solid #334323;
+  border-radius: 20px;
+  background-color: white;
+  cursor: pointer;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.0em;
+  text-align: center;
+  color: black;
+}
+.button-1:hover {
+  width: 250px;
+  height: 60px;
+  border-radius: 20px;
+  background-color: #334323;
+  cursor: pointer;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.0em;
+  text-align: center;
+  color: white;
+}
+.button-2 {
+  width: 250px;
+  height: 60px;
+  border: 2px solid #334323;
+  border-radius: 20px;
+  background-color: white;
+  cursor: pointer;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.0em;
+  text-align: center;
+  color: black;
+}
+.button-2:hover {
+  width: 250px;
+  height: 60px;
+  border-radius: 20px;
+  background-color: #334323;
+  cursor: pointer;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.0em;
+  text-align: center;
+  color: white;
+}

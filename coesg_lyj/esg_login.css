@@ -1,0 +1,83 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css?family=Inter:400,700,900");
+
+*{padding: 0; margin: 0;}
+li{ list-style: none; }
+a{ text-decoration: none;}
+button { cursor: pointer;}
+
+.loginbox{
+  width: 100%; height: auto;
+  margin: 50 auto;
+  font-family: 'Inter';
+}
+.loginbox h2{
+  position: absolute;
+  width: 100%;
+  height: 100px; line-height: 1em;
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  text-align: center;
+  color: #50784e;
+ 
+}
+.loginbox form{
+  width: 100%; height: auto;
+  background-color: transparent;
+  padding: 60px;
+  box-sizing: border-box;
+}
+
+.loginbox label{
+  display: block;
+  font-size: 16px;
+  color: #50784e;
+  margin-bottom: 10px;
+}
+
+.loginbox input{
+  display: block;
+  width: 100%; height: 50px;
+  margin-bottom: 25px;
+  border: none;
+  background-color: #ededed;
+  padding: 0 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.loginbox ul {
+  width: 100%;
+  text-align: right;
+  margin-bottom: 60px;
+}
+
+.loginbox li{
+  display: inline-block;
+  height: 12px; line-height: 1em;
+}
+
+.loginbox li:last-child{
+  border-left: 1px solid #333;
+  padding-left: 10px;
+  margin-left: 4px;
+}
+
+.loginbox a{
+  color: #333; font-size: 12px;
+  position: relative;
+  top: -2px;
+}
+
+.loginbox button{
+  display: block;
+  width: 220px; height: 50px;
+  margin: 0 auto;
+  border: none;
+  background-color: #334323;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 20px;
+}
